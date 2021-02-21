@@ -1,0 +1,42 @@
+{
+  "name": "xsr-flix",
+  "version": "1.0.0",
+  "description": "Custom Netflix approach.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christiansr85/xsr-flix.git"
+  },
+  "author": "christiansr85@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christiansr85/xsr-flix/issues"
+  },
+  "homepage": "https://github.com/christiansr85/xsr-flix#readme",
+  "dependencies": {
+    "firebase": "^8.2.9",
+    "fuse.js": "^6.4.6",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.2",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.12.17",
+    "@testing-library/react": "^11.2.5",
+    "babel-plugin-macros": "^3.0.1",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "prettier": "^2.2.1"
+  }
+}
