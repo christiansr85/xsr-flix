@@ -29,10 +29,15 @@ Accordion.Item = function AccordionItem({ children, ...restProps }) {
 };
 
 Accordion.Header = function AccordionHeader({ children, ...restProps }) {
-    const { setToggleShow } = useContext(ToggleContext);
+    const { toggleShow, setToggleShow } = useContext(ToggleContext);
     return (
         <Header onClick={() => setToggleShow((show) => !show)} {...restProps}>
             {children}
+            {toggleShow ? (
+                <img src="/images/icons/close-slim.png" alt="Close" />
+            ) : (
+                <img src="/images/icons/add.png" alt="Open" />
+            )}
         </Header>
     );
 };
